@@ -627,14 +627,14 @@ header>.container {
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.overlay > p {
+.overlay p {
 
     min-width: 370px;
-    min-height: 294px;
-
+    min-height: 168px;
+   
     color: #fff;
     font-size: 18px;
-    line-height: 1,55;
+    line-height: 1.55;
     letter-spacing: 0.03em;
     
 
@@ -643,7 +643,8 @@ header>.container {
     border: 0px;
   }
 
-  .portfolio-link:hover .overlay {
+  .portfolio-link:hover .overlay,
+  .portfolio-link:focus .overlay {
     position: absolute;
     top: 0;
     left: 0;
